@@ -1,0 +1,1 @@
+module.exports = { "JWT_SECRET": "uV0H7ndI0wGEmLz4GGqcfBkrdy8dtbK/mv62lniQ26Q=" }
