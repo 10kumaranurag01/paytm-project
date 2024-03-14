@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 async function connectDatabase() {
     try {
         console.log("MongoDB Connecting...");
-        await mongoose.connect("mongodb+srv://admin:3D5H4gjOTMLA42t1@cluster0.sesxfkz.mongodb.net/paytm-project");
+        await mongoose.connect("MONGO_CONNECTION_URL");
         console.log("MongoDB Connected");
     } catch (err) {
         console.error("Error connecting to MongoDB", err);
